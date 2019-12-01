@@ -1,0 +1,78 @@
+/*
+ HSL
+ $color1: hsla(290%, 61%, 35%, 1); roxo max
+ $color2: hsla(291%, 27%, 51%, 1); roxo claro
+ $color3: hsla(244%, 16%, 65%, 1); azul-cinza
+ $color4: hsla(201%, 25%, 70%, 1); azul-cinza claro
+ $color5: hsla(153%, 86%, 81%, 1); azul esverdeado
+ 
+ RGB 
+$color1: rgba(128, 35, 146, 1); roxo max
+$color2: rgba(153, 95, 163, 1); roxo claro
+$color3: rgba(154, 152, 181, 1); azul-cinza
+$color4: rgba(160, 185, 198, 1); azul-cinza claro
+$color5: rgba(165, 248, 211, 1);  azul esverdeado
+
+fonts
+font-family: 'Roboto', sans-serif;
+font-family: 'Open Sans', sans-serif;
+*/
+@import url('https://fonts.googleapis.com/css?family=Open+Sans|Roboto&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+}
+
+ul, li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    font-weight: bold;
+    color: rgba(128, 35, 146, 1);
+}
+
+body {
+    color: #343434;
+    font-family: 'Roboto', sans-serif;
+}
+
+.wrapper {
+    max-width: 1000px;
+    width: 100%;
+    margin: 0 auto;   
+}
+
+header {
+    background-color: rgba(128, 35, 146, 1);
+    padding: 10px 0;
+}
+
+header .wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+header .logo{
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+}
+
+header .wrapper .menu {
+    padding: 5px 0;
+    /* display: flex; */
+    /* flex-direction: row; */
+    /* justify-items: flex-end; */
+}
+
+header .wrapper .menu-item {
+    padding: 10px;
+    float: left;
+}
+
+header .wrapper .menu-item a {
+    text-transform: uppercase;
+    color: white;
+}
